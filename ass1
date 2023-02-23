@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+    int n,i,s,c;
+    printf("n value:");
+    scanf("%d",&n);
+    printf("\nenter last multiplication no:");
+    scanf("%d",&c);
+    for(i=1;i<=c;i++)
+    {
+        s=n*i;
+        printf("\n%d * %d = %d",n,i,s);
+    }
+}
